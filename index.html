@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Gamer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="icon" href="./img/controller.svg">
+</head>
+
+<body>
+    <!-- Barra de navegação -->
+    <header>
+        <div
+            class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 shadow-sm navbar navbar-expand-md navbar-dark fixed-top bg-light">
+            <h5 class="my-0 mr-md-auto font-weight-normal">Mundo Gamer</h5>
+            <nav class="my-2 my-md-0 mr-md-3">
+                <a class="p-2 text-dark" href="#carouselExampleIndicators">Inicio</a>
+                <a class="p-2 text-dark" href="#jogos">Jogos</a>
+                <a class="p-2 text-dark" href="#cadeiras">Cadeiras</a>
+                <a class="p-2 text-dark" href="#perifericos">Periféricos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Carrosel aqui -->
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./img/God_of_War_Banner.avif" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/Fifa_Banner.webp" alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/Devil-May-Cry-5_Banner.jpg" alt="Terceiro Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </section>
+    <!-- Jogos a venda -->
+    <section id="jogos">
+        <h2 style="text-align: center; margin-top: 3%;">Jogos</h2>
+        <div class="divMae">
+            <section class="jogos">
+                <div class="card text-center" style="width: 14rem;">
+                    <img class="card-img-top" src="./img/god_of_war_capa.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">God of War Ragnarok</h5>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">R$ 229,90</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="./checkout.html" class="btn btn-primary" class="text-center">Comprar</a>
+                    </div>
+                </div>
+            </section>
+            <section class="jogos">
+                <div class="card text-center" style="width: 14rem;">
+                    <img class="card-img-top" src="./img/homenaranha.jpeg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Marvels Spider-Man 2</h5>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">R$ 229,90</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="./checkout.html" class="btn btn-primary" class="text-center">Comprar</a>
+                    </div>
+                </div>
+            </section>
+            <section class="jogos">
+                <div class="card text-center" style="width: 14rem;">
+                    <img class="card-img-top" src="./img/thelast.jpeg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogo The Last Of Us Part II PS4</h5>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">R$ 229,90</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="./checkout.html" class="btn btn-primary" class="text-center">Comprar</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section>
+            <div class="divMae">
+                <section class="jogos">
+                    <div class="card text-center" style="width: 14rem;">
+                        <img class="card-img-top" src="./img/bloodborn.jpeg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">Jogo Bloodborne Hits PS4</h5>
+                        </div>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item">R$ 229,90</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="./checkout.html" class="btn btn-primary" class="text-center">Comprar</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="jogos">
+                    <div class="card text-center" style="width: 14rem;">
+                        <img class="card-img-top" src="./img/reddead.jpeg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">Jogo Red Dead Redemption, PS4</h5>
+                        </div>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item">R$ 229,90</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="./checkout.html" class="btn btn-primary" class="text-center">Comprar</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="jogos">
+                    <div class="card text-center" style="width: 14rem;">
+                        <img class="card-img-top" src="./img/uncharted.jpeg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">Jogo Uncharted The Nathan Drake</h5>
+                        </div>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item">R$ 229,90</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="./checkout.html" class="btn btn-primary" class="text-center">Comprar</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!-- Cadeiras a venda -->
+         <h2 id="cadeiras" style="text-align: center; margin-bottom: 3%; margin-top: 1%">Cadeiras</h2>
+        <div class="divMae">
+            <div class="card card text-center" style="width: 18rem; margin-left: 8%">
+                <img class="card-img-top" src="./img/cadeiraGamer.jpeg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Cadeira Gamer KBM! GAMING Tempest CG600, Branco, Com Almofadas</h5>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item">R$ 859,90</li>
+                    <li class="list-group-item">À vista no PIX com até 5% OFF</li>
+                </ul>
+                <div class="card-body">
+                    <a href="./checkout.html" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card card text-center" style="width: 18rem; margin-left: 1%">
+                <img class="card-img-top" src="./img/cadeira2.jpeg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Cadeira Gamer KBM! GAMING Tempest CG500, Preta e Azul</h5>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item">R$ 859,90</li>
+                    <li class="list-group-item">À vista no PIX com até 5% OFF</li>
+                </ul>
+                <div class="card-body">
+                    <a href="./checkout.html" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card card text-center" style="width: 18rem; margin-left: 1%">
+                <img class="card-img-top" src="./img/cadeira3.jpeg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Cadeira Gamer Mymax Mx5, Até 150KG, Almofadas</h5>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item">R$ 859,90</li>
+                    <li class="list-group-item">À vista no PIX com até 5% OFF</li>
+                </ul>
+                <div class="card-body">
+                    <a href="./checkout.html" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card card text-center" style="width: 18rem; margin-left: 1%">
+                <img class="card-img-top" src="./img/cadeira4.jpeg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Cadeira Gamer Prizi, Até 120 Kg, Com Almofadas, Roxa</h5>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item">R$ 859,90</li>
+                    <li class="list-group-item">À vista no PIX com até 5% OFF</li>
+                </ul>
+                <div class="card-body">
+                    <a href="./checkout.html" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card card text-center" style="width: 18rem; margin-left: 1%">
+                <img class="card-img-top" src="./img/cadeira5.jpeg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Cadeira Gamer KBM! GAMING Storm CG300, Preta, Com Almofadas</h5>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item">R$ 859,90</li>
+                    <li class="list-group-item">À vista no PIX com até 5% OFF</li>
+                </ul>
+                <div class="card-body">
+                    <a href="./checkout.html" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <!-- Periféricos a venda -->
+         <h2 id="perifericos" style="text-align: center; margin-bottom: 3%; margin-top: 3%">Periféricos</h2>
+        <div class="divMae">
+            <div class="card card text-center" style="width: 18rem; margin-left: 8%">
+                <img class="card-img-top" src="./img/notbook.jpeg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Notebook Gamer Acer Nitro V15 Intel Core i7-13620H, 16GB RAM</h5>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item">R$ 5.599,99</li>
+                    <li class="list-group-item">À vista no PIX com até 5% OFF</li>
+                </ul>
+                <div class="card-body">
+                    <a href="./checkout.html" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card card text-center" style="width: 18rem; margin-left: 1%">
+                <img class="card-img-top" src="./img/ps5.jpeg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Console Sony PlayStation 5 Slim, Branco + 2 Jogos - 1000038899</h5>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item">R$ 3.719,07</li>
+                    <li class="list-group-item">À vista no PIX com até 5% OFF</li>
+                </ul>
+                <div class="card-body">
+                    <a href="./checkout.html" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card card text-center" style="width: 18rem; margin-left: 1%">
+                <img class="card-img-top" src="./img/teclado.jpeg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Teclado Mecânico Gamer HyperX Alloy MKW100, RGB, Switch Red</h5>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item">R$ 269,99</li>
+                    <li class="list-group-item">À vista no PIX com até 5% OFF</li>
+                </ul>
+                <div class="card-body">
+                    <a href="./checkout.html" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card card text-center" style="width: 18rem; margin-left: 1%">
+                <img class="card-img-top" src="./img/headphone.jpeg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Headset Gamer Redragon Zeus X, Chroma Mk.II, RGB, Surround 7.1, USB</h5>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item">R$ 229,90</li>
+                    <li class="list-group-item">À vista no PIX com até 5% OFF</li>
+                </ul>
+                <div class="card-body">
+                    <a href="./checkout.html" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card card text-center" style="width: 18rem; margin-left: 1%">
+                <img class="card-img-top" src="./img/mouse.jpeg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Mouse Gamer Machenike M7 Pro, Com fio, 12800 DPI</h5>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item">R$ 229,90</li>
+                    <li class="list-group-item">À vista no PIX com até 5% OFF</li>
+                </ul>
+                <div class="card-body">
+                    <a href="./checkout.html" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Rodapé -->
+        <footer id="rodape" class="my-5 pt-5 text-muted text-center text-small">
+            <p class="mb-1">&copy; Mundo Gamer</p>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="#">Privacidade</a></li>
+              <li class="list-inline-item"><a href="#">Termos</a></li>
+              <li class="list-inline-item"><a href="#">Suporte</a></li>
+            </ul>
+          </footer>
+
+</body>
+
+</html>
